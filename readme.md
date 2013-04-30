@@ -11,8 +11,8 @@ Jinput::get('email') - Grabs an email field, just like Input::get('email') would
 
 1. Add the following to the end of the 'providers' array in /app/config/app.php:
 
-'Jason\Jinput\JinputServiceProvider'
+        'Jason\Jinput\JinputServiceProvider'
 
 2. Add the following to the end of the 'aliases' array in /app/config/app.php:
 
-'Jinput' => 'JasonNZ\Jinput\Jinput'
+        'Jinput' => 'JasonNZ\Jinput\Jinput'
