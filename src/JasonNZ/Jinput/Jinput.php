@@ -1,6 +1,6 @@
 <?php namespace JasonNZ\Jinput;
 
-use Jason\Jinput\Security as Security;
+use JasonNZ\Jinput\Security as Security;
 use Illuminate\Support\Facades\Input as Input;
 
 class Jinput extends Input {
