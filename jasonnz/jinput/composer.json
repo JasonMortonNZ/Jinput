@@ -1,0 +1,20 @@
+{
+    "name": "jason/jinput",
+    "description": "Jinput xss cleaner",
+    "authors": [
+        {
+            "name": "Jason Morton",
+            "email": "yobrojas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jason\\Jinput": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
