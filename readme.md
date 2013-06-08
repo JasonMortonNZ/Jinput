@@ -27,6 +27,6 @@ Jinput::get('email') - Grabs an email field, just like Input::get('email') would
 
 # How to Use
 
-Simple! Instead of doing the usual `Input::get('value');` do this instead: `$input = Jinput::get('value');
+Simple! Instead of doing the usual `Input::get('value');` do this instead: `$input = Jinput::get('value')`;
 
 You can also call `Jinput::all();` to get all form input;
