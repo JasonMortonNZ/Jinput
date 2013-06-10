@@ -45,7 +45,7 @@ class Security {
 		{
 			while (list($key) = each($str))
 			{
-				$str[$key] = self->xss_clean($str[$key]);
+				$str[$key] = self::xss_clean($str[$key]);
 			}
 			return $str;
 		}
