@@ -34,7 +34,7 @@ class Jinput extends Input {
 	public static function all()
 	{
 		$oldInput = Input::all();
-		$newInput = [];
+		$newInput = array();
 
 		foreach ($oldInput as $key => $value) {
 			$newInput[$key] = self::get2($value);
