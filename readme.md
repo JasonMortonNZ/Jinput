@@ -1,6 +1,8 @@
 # Jinput Laravel 4 Package
 A Laravel 4 alternative to Input, allowing you to have XSS filter and sanitized user input.
 
+Now compatible with PHP 5.3
+
 ## Usage - Examples
 
 Jinput::all() - Grabs all input that Input::all() would normally give you, but XSS filtered.
