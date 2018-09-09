@@ -11,7 +11,7 @@ Jinput::get('email') - Grabs an email field, just like Input::get('email') would
 
 ## Installation
 
-1. Add a new entry into the the `require: {}` array of the composer.json file in the root of your Laravel 4 project. It should look something like this:
+1. Add a new entry into the `require: {}` array of the composer.json file in the root of your Laravel 4 project. It should look something like this:
 
 
 `"require": {
